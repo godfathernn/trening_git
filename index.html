@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+</head>
+<body>
+	<div class="dd">Текст</div>
+	<input type="text">
+	<script>
+		var elem = document.getElementsByClassName('dd');
+		console.log(elem.text);
+		document.addEventListener('contextmenu', function() { 
+			alert('Копирование запрещенно!');
+		});
+	</script>
+</body>
+</html>
